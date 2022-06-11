@@ -130,11 +130,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     dolbycodec2
 
-# Doze
-PRODUCT_PACKAGES += \
-    OplusDoze \
-    OplusDozeResCommon
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
