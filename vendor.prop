@@ -92,6 +92,12 @@ vendor.display.enable_optimize_refresh=0
 vendor.display.use_smooth_motion=1
 vendor.display.vds_allow_hwc=1
 
+# Camera
+vendor.camera.algo.jpeghwencode=0
+vendor.camera.aux.packagelist=com.oplus.camera
+ro.vendor.oplus.camera.isSupportExplorer=0
+ro.camera.enableCamera1MaxZsl=1
+
 # DRM
 drm.service.enabled=true
 
