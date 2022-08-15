@@ -69,6 +69,12 @@ function blob_fixup() {
         system_ext/lib64/libwfdnative.so)
             sed -i "s/android.hidl.base@1.0.so/libhidlbase.so\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/" "${2}"
             ;;
+        system_ext/etc/camera/mtCalibrationCfg.xml)
+            sed -i "s/-----/--/" "${2}"
+            ;;
+        system_ext/etc/camera/mwCalibrationCfg.xml)
+            sed -i "s/-----/--/" "${2}"
+            ;;
     esac
 }
 
