@@ -98,6 +98,12 @@ vendor.camera.aux.packagelist=com.oplus.camera
 ro.vendor.oplus.camera.isSupportExplorer=0
 ro.camera.enableCamera1MaxZsl=1
 
+# Dolby
+persist.vendor.audio_fx.current=dolby
+vendor.audio.dolby.ds2.enabled=true
+vendor.audio.dolby.ds2.hardbypass=true
+ro.vendor.dolby.dax.version=DAX3_3.6.0.12_r1
+
 # DRM
 drm.service.enabled=true
 
