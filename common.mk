@@ -493,3 +493,7 @@ PRODUCT_BOOT_JARS += \
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/oneplus/sm8550-common/sm8550-common-vendor.mk)
+
+# Build with Gapps
+WITH_GMS := true
+$(call inherit-product, vendor/gms/gms_core.mk)
