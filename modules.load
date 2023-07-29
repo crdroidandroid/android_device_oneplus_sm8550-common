@@ -194,6 +194,9 @@ gh_irq_lend.ko
 gh_mem_notifier.ko
 qcom-spmi-adc5-gen3.ko
 qcom-vadc-common.ko
+industrialio-buffer-cb.ko
+industrialio-triggered-buffer.ko
+kfifo_buf.ko
 oplus_binder_strategy.ko
 nvmem_qfprom.ko
 icc-test.ko
