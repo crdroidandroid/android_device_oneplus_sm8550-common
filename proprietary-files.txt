@@ -1187,11 +1187,11 @@ odm/lib64/vendor.oplus.hardware.orms@1.0.so
 odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk.so
 odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-service-impl.so
 system/framework/oplus-support-wrapper.jar
-system_ext/lib/liboplus_10bitHeif.so
 system_ext/lib64/libAIBrightness.so
 system_ext/lib64/libHeifEncoderWrapper.so
 system_ext/lib64/libHeifWinBufExchg-jni.so
 system_ext/lib64/libNativeWinBuffExchange.so
+system_ext/lib64/liboplus_10bitHeif.so
 system_ext/lib64/liboplusHeifDecoderImpl.so
 system_ext/lib64/liboplus_heifconverter.so
 system_ext/lib64/liboplusheifwriter.so
@@ -1354,6 +1354,7 @@ vendor/lib64/libmctfengine_stub.so
 vendor/lib64/libmfGhostDetection.so
 vendor/lib64/libmfec.so
 vendor/lib64/libmidasserviceintf_aidl.so
+vendor/lib64/libmidasserviceintf.so
 vendor/lib64/libmmcamera_bestats.so
 vendor/lib64/libmmcamera_cac3.so
 vendor/lib64/libmmcamera_lscv35.so
@@ -1378,6 +1379,7 @@ vendor/lib64/libthreadutils.so
 vendor/lib64/libubifocus.so
 vendor/lib64/libvideoml.so
 vendor/lib64/vendor.oplus.hardware.cameraextension@1.0.so
+vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
 vendor/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk.so
 vendor/lib64/vendor.oplus.hardware.commondcs-V1-ndk_platform.so
 vendor/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk.so
