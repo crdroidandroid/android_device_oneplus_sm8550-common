@@ -192,4 +192,10 @@
     <!-- Whether key handler sends intent when changing slider position -->
     <string name="config_alertSliderIntent">org.lineageos.device.DeviceSettings.UPDATE_SLIDER_POSITION</string>
 
+    <!-- Whether device has VOOC charging support -->
+    <bool name="config_hasVoocCharger">true</bool>
+
+     <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
+    <string name="config_oemFastChargerStatusPath" translatable="false">"/sys/class/oplus_chg/battery/fast_charge"</string>
+
 </resources>
