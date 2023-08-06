@@ -337,7 +337,7 @@ PRODUCT_PACKAGES += \
     libstagefrighthw
 
 # OnePlus camera
-# $(call inherit-product, vendor/oneplus/camera/camera-vendor.mk)
+$(call inherit-product, vendor/oneplus/camera/camera-vendor.mk)
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/oplus_camera_default_grant_permissions_list.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/default-permissions/oplus_camera_default_grant_permissions_list.xml \
