@@ -1,15 +1,4 @@
-oplus_locking_strategy.ko
-oplus_bsp_healthinfo.ko
-oplus_bsp_task_cpustats.ko
-oplus_bsp_task_load.ko
 msm_sysstats.ko
-oplus_bsp_zram_opt.ko
-oplus_bsp_hybridswap_zram.ko
-hybrid_zsmalloc.ko
-oplus_bsp_kshrink_slabd.ko
-oplus_bsp_pcppages_opt.ko
-oplus_bsp_kshrink_lruvecd.ko
-oplus_bsp_mapped_protect.ko
 msm_show_resume_irq.ko
 mhi.ko
 mhi_cntrl_qcom.ko
@@ -83,7 +72,6 @@ pmic_monitor.ko
 dump_device_info.ko
 dump_reason.ko
 shutdown_detect.ko
-hung_task_enhance.ko
 oplus_theia.ko
 init_watchdog.ko
 keyevent_handler.ko
@@ -197,7 +185,6 @@ qcom-vadc-common.ko
 industrialio-buffer-cb.ko
 industrialio-triggered-buffer.ko
 kfifo_buf.ko
-oplus_binder_strategy.ko
 nvmem_qfprom.ko
 icc-test.ko
 slimbus.ko
