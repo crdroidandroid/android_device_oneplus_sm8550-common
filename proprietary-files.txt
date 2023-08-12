@@ -2290,7 +2290,6 @@ vendor/lib64/vendor.oplus.hardware.osense.client-V1-ndk.so
 
 # OPLUS Cryptoeng
 odm/bin/hw/vendor.oplus.hardware.cryptoeng@1.0-service
-odm/etc/permissions/vendor-oplus-hardware-cryptoeng.xml
 odm/etc/init/vendor.oplus.hardware.cryptoeng@1.0-service_FDE.rc
 odm/etc/vintf/manifest/manifest_oplus_cryptoeng_hidl.xml
 odm/lib64/lib_cryptoeng_api.so
@@ -2952,6 +2951,7 @@ vendor/bin/hw/android.hardware.drm-service.widevine
 vendor/etc/init/android.hardware.drm-service.widevine.rc
 vendor/etc/oplus_Widevine_licenses.pfm
 vendor/etc/vintf/manifest/manifest_android.hardware.drm-service.widevine.xml
+vendor/lib64/liboemcrypto.so
 vendor/lib64/libwvaidl.so
 
 # WiFi

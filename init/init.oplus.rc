@@ -59,11 +59,6 @@ on property:sys.boot_completed=1
     chmod 0600 /mnt/vendor/persist/data/pfm/licenses/Oplus_QC_LTM_SM8550_2022_10_13.pfm
     chown system system /mnt/vendor/persist/data/pfm/licenses/Oplus_QC_LTM_SM8550_2022_10_13.pfm
 
-    # Widevine
-    copy /vendor/etc/oplus_Widevine_licenses.pfm /mnt/vendor/persist/data/pfm/licenses/oplus_Widevine_licenses.pfm
-    chmod 0600 /mnt/vendor/persist/data/pfm/licenses/oplus_Widevine_licenses.pfm
-    chown system system /mnt/vendor/persist/data/pfm/licenses/oplus_Widevine_licenses.pfm
-
 on property:sys.usb.config=adb && property:sys.usb.configfs=1
     write /config/usb_gadget/g1/idVendor 0x22D9
     write /config/usb_gadget/g1/idProduct 0x2769
