@@ -2288,6 +2288,27 @@ odm/lib64/libosenseaidlhalclient.so
 odm/lib64/vendor.oplus.hardware.osense.client-V1-ndk.so
 vendor/lib64/vendor.oplus.hardware.osense.client-V1-ndk.so
 
+# OPLUS Cryptoeng
+odm/bin/hw/vendor.oplus.hardware.cryptoeng@1.0-service
+odm/etc/permissions/vendor-oplus-hardware-cryptoeng.xml
+odm/etc/init/vendor.oplus.hardware.cryptoeng@1.0-service_FDE.rc
+odm/etc/vintf/manifest/manifest_oplus_cryptoeng_hidl.xml
+odm/lib64/lib_cryptoeng_api.so
+odm/lib64/libqsee_keybox_ca.so
+odm/lib64/librpmbengclient.so
+odm/lib64/libsecurity_event_dcs.so
+odm/lib64/vendor.oplus.hardware.cryptoeng@1.0.so
+odm/vendor/firmware/cryptoeng.mdt
+odm/vendor/firmware/cryptoeng.b00
+odm/vendor/firmware/cryptoeng.b01
+odm/vendor/firmware/cryptoeng.b02
+odm/vendor/firmware/cryptoeng.b03
+odm/vendor/firmware/cryptoeng.b04
+odm/vendor/firmware/cryptoeng.b05
+odm/vendor/firmware/cryptoeng.b06
+odm/vendor/firmware/cryptoeng.b07
+odm/vendor/firmware/cryptoeng.b08
+
 # OPLUS Performance
 odm/bin/hw/vendor-oplus-hardware-performance-V1-service
 odm/etc/init/vendor-oplus-hardware-performance-V1-service.rc
