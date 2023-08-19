@@ -73,11 +73,9 @@ dump_device_info.ko
 dump_reason.ko
 shutdown_detect.ko
 oplus_theia.ko
-init_watchdog.ko
 keyevent_handler.ko
 combkey_monitor.ko
 last_boot_reason.ko
-oplus_mdmrst.ko
 qti-fixed-regulator.ko
 qti-ocp-notifier.ko
 hvc_gunyah.ko

@@ -111,7 +111,6 @@ oplus_pmicwd.ko
 qpnp-power-on.ko
 nvme-core.ko
 nvme.ko
-qcom_enhance_watchdog.ko
 msm_sysstats.ko
 msm_show_resume_irq.ko
 mhi.ko
@@ -187,11 +186,9 @@ dump_device_info.ko
 dump_reason.ko
 shutdown_detect.ko
 oplus_theia.ko
-init_watchdog.ko
 keyevent_handler.ko
 combkey_monitor.ko
 last_boot_reason.ko
-oplus_mdmrst.ko
 qti-fixed-regulator.ko
 qti-ocp-notifier.ko
 hvc_gunyah.ko

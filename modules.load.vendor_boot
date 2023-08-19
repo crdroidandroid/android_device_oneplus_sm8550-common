@@ -111,4 +111,3 @@ oplus_pmicwd.ko
 qpnp-power-on.ko
 nvme-core.ko
 nvme.ko
-qcom_enhance_watchdog.ko
