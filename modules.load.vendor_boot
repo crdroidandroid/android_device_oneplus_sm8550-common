@@ -106,6 +106,7 @@ oplus_phoenix.ko
 oplus_kmsg_wb.ko
 phoenix_reboot_speed.ko
 shutdown_speed.ko
+horae_shell_temp.ko
 oplus_mdmfeature.ko
 oplus_pmicwd.ko
 qpnp-power-on.ko
