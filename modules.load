@@ -63,13 +63,9 @@ ssc_interact.ko
 oplus_bsp_sensor_feedback.ko
 kernel_fb.ko
 olc.ko
-pmic_monitor.ko
 dump_device_info.ko
 dump_reason.ko
-shutdown_detect.ko
 oplus_theia.ko
-keyevent_handler.ko
-combkey_monitor.ko
 last_boot_reason.ko
 qti-fixed-regulator.ko
 qti-ocp-notifier.ko
