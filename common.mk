@@ -48,11 +48,17 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.service \
     android.hardware.bluetooth.audio-impl \
     android.hardware.soundtrigger@2.3-impl \
+    agmcap \
+    agmcompressplay \
+    agmplay \
     audio.bluetooth.default \
     audio.primary.kalama \
     audio.r_submix.default \
     audio.usb.default \
     audioadsprpcd \
+    libagm_compress_plugin \
+    libagm_mixer_plugin \
+    libagm_pcm_plugin \
     libbatterylistener \
     libqcompostprocbundle \
     libqcomvisualizer \
@@ -299,7 +305,8 @@ PRODUCT_PACKAGES += \
     libavservices_minijail \
     libavservices_minijail.vendor \
     libcodec2_hidl@1.0.vendor \
-    libcodec2_vndk.vendor
+    libcodec2_vndk.vendor \
+    libpalclient
 
 # Moto Dolby
 PRODUCT_COPY_FILES += \
