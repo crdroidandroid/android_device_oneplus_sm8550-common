@@ -1275,6 +1275,7 @@ vendor/lib64/camera/components/com.qtistatic.stats.awb.so
 vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so
 vendor/lib64/camera/components/libdepthmapwrapper_secure.so
 vendor/lib64/camera/imx709.pb
+vendor/lib64/android.hardware.camera.common@1.0.so
 vendor/lib64/camx.device-impl.so
 vendor/lib64/camx.provider-impl.so
 vendor/lib64/com.qti.camx.chiiqutils.so
@@ -1380,7 +1381,12 @@ vendor/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk.so
 vendor/lib64/vendor.oplus.hardware.commondcs-V1-ndk_platform.so
 vendor/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.camera.aon-service-impl.so
+vendor/lib64/vendor.qti.hardware.camera.aon@1.0.so
+vendor/lib64/vendor.qti.hardware.camera.aon@1.1.so
+vendor/lib64/vendor.qti.hardware.camera.aon@1.2.so
+vendor/lib64/vendor.qti.hardware.camera.aon@1.3.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
+vendor/lib64/vendor.qti.hardware.camera.postproc@1.0.so
 
 # Camera firmware
 vendor/firmware/CAMERA_ICP.b00
