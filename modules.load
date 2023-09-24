@@ -37,7 +37,6 @@ sysmon_subsystem_stats.ko
 subsystem_sleep_stats.ko
 adsp_sleepmon.ko
 eud.ko
-microdump_collector.ko
 llcc_perfmon.ko
 cdsp-loader.ko
 pmic-pon-log.ko
@@ -142,7 +141,6 @@ qti_cpufreq_cdev.ko
 qti_devfreq_cdev.ko
 qti_userspace_cdev.ko
 sdpm_clk.ko
-thermal_minidump.ko
 qcom_edac.ko
 qcom_lpm.ko
 leds-qti-flash.ko
@@ -167,11 +165,6 @@ qcom-vadc-common.ko
 nvmem_qfprom.ko
 slimbus.ko
 slim-qcom-ngd-ctrl.ko
-stm_core.ko
-stm_p_basic.ko
-stm_p_ost.ko
-stm_console.ko
-stm_ftrace.ko
 snd-usb-audio-qmi.ko
 snd-soc-hdmi-codec.ko
 cfg80211.ko
