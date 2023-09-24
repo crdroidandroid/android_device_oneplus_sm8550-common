@@ -7,7 +7,6 @@ icc-rpmh.ko
 camcc-kalama.ko
 qcom_ipcc.ko
 qcom-pdc.ko
-thermal_minidump.ko
 qcom_tsens.ko
 rpmh-regulator.ko
 bwmon.ko
@@ -43,8 +42,6 @@ mem-hooks.ko
 mem_buf_dev.ko
 mem_buf_msgq.ko
 mem_buf.ko
-memory_dump_v2.ko
-minidump.ko
 msm_dma_iommu_mapping.ko
 pinctrl-kalama.ko
 qnoc-kalama.ko
@@ -139,7 +136,6 @@ sysmon_subsystem_stats.ko
 subsystem_sleep_stats.ko
 adsp_sleepmon.ko
 eud.ko
-microdump_collector.ko
 llcc_perfmon.ko
 cdsp-loader.ko
 pmic-pon-log.ko
@@ -161,7 +157,6 @@ sps_drv.ko
 spss_utils.ko
 spcom.ko
 msm_performance.ko
-qcom_va_minidump.ko
 qbt_handler.ko
 oplus_sensor.ko
 ssc_interact.ko
@@ -266,11 +261,6 @@ qcom-vadc-common.ko
 nvmem_qfprom.ko
 slimbus.ko
 slim-qcom-ngd-ctrl.ko
-stm_core.ko
-stm_p_basic.ko
-stm_p_ost.ko
-stm_console.ko
-stm_ftrace.ko
 snd-usb-audio-qmi.ko
 snd-soc-hdmi-codec.ko
 cfg80211.ko
