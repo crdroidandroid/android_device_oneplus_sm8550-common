@@ -37,6 +37,8 @@ public class OplusBuild {
 
     public static class VERSION {
         public static final String RELEASE = "V12.1";
+        public static final int SDK_VERSION = getOplusOSVERSION();
+        public static final int SDK_SUB_VERSION = 19;
     }
 
     public static int getOplusOSVERSION() {
