@@ -1124,7 +1124,7 @@ odm/lib64/libdualcam_optical_zoom_control.so
 odm/lib64/libdualcam_video_optical_zoom.so
 odm/lib64/libeffect_custom.so
 odm/lib64/libexif-jpeg-aps.so
-odm/lib64/libextensionlayer.so|01a71649ee376a28415d209ca5925acb4faab8ab
+odm/lib64/libextensionlayer.so
 odm/lib64/libhwconfigurationutil.so
 odm/lib64/libhyperlapse.so
 odm/lib64/libiceainr.so
