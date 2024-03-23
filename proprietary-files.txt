@@ -2049,7 +2049,7 @@ vendor/lib64/libqnnengine.so
 # NFC
 odm/etc/nfc/libnfc-mtp-SN100.conf_22861:vendor/etc/libnfc-nxp.conf
 odm/etc/nfc/libnfc-nci.conf_22861:vendor/etc/libnfc-nci.conf
-odm/lib/libsn100u_fw.so:vendor/lib/libsn100u_fw.so
+odm/lib/libsn100u_fw.so:vendor/lib64/libsn100u_fw.so
 
 # OSENSE
 odm/lib64/libosenseaidlhalclient.so
