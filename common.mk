@@ -148,7 +148,8 @@ PRODUCT_COPY_FILES += \
 
 # Dolby
 PRODUCT_PACKAGES += \
-    OplusDolby
+    OplusDolby \
+    dolbycodec_shim
 
 # OnePlus wrapper
 PRODUCT_BOOT_JARS += \
