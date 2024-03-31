@@ -343,7 +343,8 @@ PRODUCT_PACKAGES += \
 
 # Media (Dolby)
 PRODUCT_PACKAGES += \
-    OplusDolby
+    OplusDolby \
+    dolbycodec_shim
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_effects.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_effects.xml \

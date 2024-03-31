@@ -100,6 +100,9 @@ function blob_fixup() {
         odm/lib64/libcodec2_soft_ac4dec_sp.so | odm/lib64/libdlbdsservice_sp.so | odm/lib64/libdlbpreg_sp.so | odm/lib64/c2.dolby.hevc.dec.so | odm/lib64/c2.dolby.hevc.sec.dec.so)
             "${PATCHELF}" --replace-needed "libstagefright_foundation.so" "libstagefright_foundation-v33.so" "${2}"
             ;;
+        odm/lib64/c2.dolby.client.so)
+            "${PATCHELF}" --add-needed "dolbycodec_shim.so" "${2}"
+            ;;
     esac
 }
 
