@@ -15,7 +15,6 @@ gh_virt_wdt.ko
 gunyah.ko
 mem_buf.ko
 mem-hooks.ko
-mem-offline.ko
 memory_dump_v2.ko
 msm_qmp.ko
 nvme.ko
