@@ -1106,7 +1106,6 @@ odm/lib64/libstfd_mobile_api.so
 odm/lib64/libthirdcapability.so
 odm/lib64/libtriplecam_optical_zoom_control.so
 odm/lib64/libtriplecam_video_optical_zoom.so
-odm/lib64/libui.so
 odm/lib64/libwatermark_photo.so
 odm/lib64/libwrapper_te.so
 odm/lib64/libyuv2.so
