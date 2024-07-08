@@ -84,7 +84,7 @@ function blob_fixup() {
             sed -i "s/NFC_DEBUG_ENABLED=1/NFC_DEBUG_ENABLED=0/" "${2}"
             ;;
         vendor/etc/media_codecs_kalama.xml|vendor/etc/media_codecs_kalama_vendor.xml)
-            sed -Ei "/media_codecs_(google_audio|google_telephony|google_video|vendor_audio)/d" "${2}"
+            sed -Ei "/media_codecs_(google_audio|google_c2|google_telephony|google_video|vendor_audio)/d" "${2}"
             ;;
         vendor/etc/seccomp_policy/qwesd@2.0.policy)
             echo "pipe2: 1" >> "${2}"
