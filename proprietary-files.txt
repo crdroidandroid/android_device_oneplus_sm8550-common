@@ -121,25 +121,6 @@ odm/lib64/libtfa98xx.so
 vendor/etc/models/acd/event.eai
 vendor/etc/models/acd/music.eai
 vendor/etc/models/acd/speech.eai
-vendor/lib/hw/audio.primary.kalama.so
-vendor/lib/libPeripheralStateUtils.so
-vendor/lib/libar-acdb.so
-vendor/lib/libar-gpr.so
--vendor/lib/libar-gsl.so
--vendor/lib/libar-pal.so
--vendor/lib/libats.so
-vendor/lib/libcapiv2svacnnvendor.so
-vendor/lib/libcapiv2svarnnvendor.so
-vendor/lib/libcapiv2udk7vendor.so
-vendor/lib/libcapiv2uvvendor.so
-vendor/lib/libfmpal.so
-vendor/lib/libhfp_pal.so
-vendor/lib/liblistensoundmodel2vendor.so
-vendor/lib/liblx-ar_util.so
--vendor/lib/liblx-osal.so
-vendor/lib/libmcs.so
-vendor/lib/libqtigefar.so
--vendor/lib/vendor.qti.hardware.pal@1.0-impl.so
 vendor/lib64/hw/audio.primary.kalama.so
 vendor/lib64/libAlacSwDec.so
 vendor/lib64/libApeSwDec.so
@@ -174,8 +155,6 @@ vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0.so
 -vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so
 
 # Audio AGM
--vendor/lib/libagm.so
--vendor/lib/vendor.qti.hardware.AGMIPC@1.0-impl.so
 -vendor/lib64/libagm.so
 -vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
 
