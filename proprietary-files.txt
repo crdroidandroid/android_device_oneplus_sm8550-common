@@ -1098,6 +1098,7 @@ odm/lib64/vendor.oplus.hardware.cameraextension-V1-service-impl.so
 odm/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk.so
 odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk.so
 odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-service-impl.so
+system/lib64/libziparchive.so:odm/lib64/libziparchive.so
 vendor/bin/hw/vendor.qti.camera.provider-service_64
 vendor/etc/init/vendor.qti.camera.provider-service_64.rc
 vendor/etc/vintf/manifest/vendor.qti.camera.aon-impl-1.3.xml
