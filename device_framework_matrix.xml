@@ -54,6 +54,13 @@
         </interface>
     </hal>
     <hal format="aidl" optional="true">
+        <name>vendor.oplus.hardware.esim</name>
+        <interface>
+            <name>IOplusEsim</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
         <name>vendor.oplus.hardware.ims</name>
         <interface>
             <name>IImsStable</name>

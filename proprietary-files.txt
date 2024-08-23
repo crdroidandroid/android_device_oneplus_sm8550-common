@@ -1725,6 +1725,12 @@ vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so
 vendor/lib64/vendor.qti.esepowermanager@1.0.so
 vendor/lib64/vendor.qti.esepowermanager@1.1.so
 
+# eSIM
+odm/bin/hw/vendor.oplus.hardware.esim@1.0-service
+odm/etc/init/esim@1.0-service.rc
+odm/etc/vintf/manifest/manifest_oplus_esim.xml
+odm/lib64/vendor.oplus.hardware.esim-V1-ndk.so
+
 # EVA
 vendor/etc/eva/facedetection/model3.dat
 vendor/lib64/libcv_common.so
