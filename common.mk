@@ -333,9 +333,21 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libavservices_minijail \
     libavservices_minijail.vendor \
-    libcodec2_hidl@1.0.vendor \
+    libavservices_minijail_vendor \
+    libcodec2_hidl@1.2.vendor \
+    libcodec2_soft_common.vendor \
     libcodec2_vndk.vendor \
+    libsfplugin_ccodec_utils.vendor \
+    libstagefright_foundation-v33 \
     libpalclient
+
+# Media (Dolby)
+PRODUCT_PACKAGES += \
+    OplusDolby
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/audio/audio_effects.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_effects.xml \
+    $(LOCAL_PATH)/audio/multimedia_dolby_dax_default.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/multimedia_dolby_dax_default.xml
 
 # Memtrack
 PRODUCT_PACKAGES += \

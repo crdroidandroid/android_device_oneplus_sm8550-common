@@ -84,7 +84,8 @@ function blob_fixup() {
             sed -i "s/NFC_DEBUG_ENABLED=1/NFC_DEBUG_ENABLED=0/" "${2}"
             ;;
         vendor/etc/media_codecs_kalama.xml|vendor/etc/media_codecs_kalama_vendor.xml)
-            sed -Ei "/media_codecs_(google_audio|google_c2|google_telephony|google_video|vendor_audio)/d" "${2}"
+            sed -Ei "/media_codecs_(google_audio|google_c2|google_telephony|google_video)/d" "${2}"
+            sed -i "s/media_codecs_vendor_audio/media_codecs_c2_dolby_audio/" "${2}"
             ;;
         vendor/etc/seccomp_policy/qwesd@2.0.policy)
             echo "pipe2: 1" >> "${2}"
@@ -95,8 +96,13 @@ function blob_fixup() {
         system_ext/etc/camera/mwCalibrationCfg.xml)
             sed -i "s/-----/--/" "${2}"
             ;;
+        odm/lib64/soundfx/libdlbvol_sp.so | odm/lib64/soundfx/libswdap_sp.so | odm/lib64/soundfx/libswspatializer.so | odm/lib64/libcodec2_soft_ddpdec_sp.so | \
+        odm/lib64/libcodec2_soft_ac4dec_sp.so | odm/lib64/libdlbdsservice_sp.so | odm/lib64/libdlbpreg_sp.so | odm/lib64/c2.dolby.hevc.dec.so | odm/lib64/c2.dolby.hevc.sec.dec.so)
+            "${PATCHELF}" --replace-needed "libstagefright_foundation.so" "libstagefright_foundation-v33.so" "${2}"
+            ;;
     esac
 }
+
 
 if [ -z "${ONLY_FIRMWARE}" ] && [ -z "${ONLY_TARGET}" ]; then
     # Initialize the helper for common device

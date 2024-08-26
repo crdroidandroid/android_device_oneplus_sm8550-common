@@ -146,6 +146,8 @@ ro.incremental.enable=yes
 # Media
 debug.c2.use_dmabufheaps=1
 debug.stagefright.c2inputsurface=-1
+ro.mediaserver.64b.enable=true
+vendor.media.omx=0
 
 # Netflix
 ro.netflix.bsp_rev=Q8550-36432-1
