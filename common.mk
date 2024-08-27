@@ -146,13 +146,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/privapp-permissions-oplus.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-oplus.xml \
     $(LOCAL_PATH)/configs/sysconfig/hiddenapi-package-oplus-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/hiddenapi-package-oplus-whitelist.xml
 
-# OnePlus framework
-PRODUCT_PACKAGES += \
-    oplus-fwk
-
-PRODUCT_BOOT_JARS += \
-    oplus-fwk
-
 # OnePlus wrapper
 PRODUCT_BOOT_JARS += \
     oplus-support-wrapper
