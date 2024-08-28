@@ -154,6 +154,18 @@ vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0.so
 -vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so
 
+# Audio (Dolby) - from marble
+vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service|7324d7e47a8266502e99c1599635dc48feb25202
+vendor/etc/dolby/dax-default.xml|091dcfd86742a54c074993e33acae8146257c674
+vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc|29296ebfe89b2697fec573be73cc3757fd97bed6
+vendor/etc/vintf/manifest/vendor.dolby.hardware.dms.xml|c8095f649de19b80271fb429b4b6b439297a0678
+vendor/lib64/libdapparamstorage.so|36998deb47a165f5aabd756443b70f29288c66ef
+vendor/lib64/libdlbdsservice.so|328de47d87e09ac1eee3725673eb645f2d1d39c1
+vendor/lib64/libdlbpreg.so|42657310ed4b6fe69ba3805005d5a022dac86b91
+vendor/lib64/libspatializerparamstorage.so|12acd14beacfa2e22015e4a9b21dd6cb8c026d4d
+vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so|b2fbec79ed734102ee2ff6a9fd1040cabad535e7
+vendor/lib64/vendor.dolby.hardware.dms@2.0.so|e1aced930abf83580d980d40f9adb7aa3b0f80c4
+
 # Audio AGM
 -vendor/lib64/libagm.so
 -vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
@@ -162,6 +174,13 @@ vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0.so
 vendor/lib64/soundfx/libasphere.so
 vendor/lib64/soundfx/libquasar.so
 vendor/lib64/soundfx/libshoebox.so
+
+# Audio FX modules - from marble
+vendor/lib64/soundfx/libdlbvol.so|8ef979e2d0768fd1f1cc1b88b2c6c5e03d57600c
+vendor/lib64/soundfx/libhwdap.so|521a1c7ea72fcbb18106d1447ed9248435fc822a
+vendor/lib64/soundfx/libswgamedap.so|1cf88b807b57bc1e83976717d540e9ff9e9db13c
+vendor/lib64/soundfx/libswspatializer.so|4156088e5c7cd76bfae9b37454d6918ec80d4b8d
+vendor/lib64/soundfx/libswvqe.so|1a8acf7b2601275a584bb2302e74b40826f4876f
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.1-service-qti
@@ -1771,11 +1790,11 @@ vendor/lib64/libfastcvdsp_stub.so
 odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff|c8031f17ec9cf23f22aba0238cfd50c869edc534
 odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc|fb6116702903de0122eb00af471481ef1a65fe32
 odm/etc/vintf/manifest/manifest_oplus_fingerprint.xml|78ca4f56ed1f5dd48c186718718fd9513629851e
-odm/lib64/libolc_vnd.so
-odm/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so
-odm/lib64/vendor.oplus.hardware.commondcs-V1-ndk.so
-odm/lib64/vendor.oplus.hardware.olc2-V1-ndk.so
-odm/lib64/vendor.oplus.hardware.touch-V1-ndk.so
+odm/lib64/libolc_vnd.so|9c7fd01834295cd5a79ee447792381a79b9718e5
+odm/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so|56a3f468cff75973a46993badb2ef04a55b60f94
+odm/lib64/vendor.oplus.hardware.commondcs-V1-ndk.so|74eba8e36a651f3213dc4907f654878ec1c25cc4
+odm/lib64/vendor.oplus.hardware.olc2-V1-ndk.so|630cefe35dfda2809fc87c2ec034e757959dd244
+odm/lib64/vendor.oplus.hardware.touch-V1-ndk.so|4e906d308ad523eb9d32bcc48f518565496faf3b
 
 # Fingerprint firmware
 odm/vendor/firmware/uff_gx.b00
@@ -2154,6 +2173,26 @@ vendor/lib64/libqcodec2_v4l2codec.so
 vendor/lib64/libqconfigclient.so
 vendor/lib64/qti.video.utils.videobufferlayout.so
 vendor/lib64/vendor.qti.hardware.qconfig@1.0.so
+
+# Media (Dolby Vision) - from marble
+vendor/bin/hw/dolbycodec2|19b1cd6568ab05efbfaa541e3c0fdba712fa482e
+vendor/bin/hw/vendor.dolby.media.c2@1.0-service|f4bcd0776be21da47cd1e0cccf838d841d1c7914
+vendor/etc/init/dolbycodec2.rc|1ea8b363e94fd4f5410cadceb30de8229fb38045
+vendor/etc/init/vendor.dolby.media.c2@1.0-service.rc|bc1e134139c7dd0e5b4f98952aa51c629ea66dc7
+vendor/etc/media_codecs_dolby_audio.xml|3119c61cc5471bb7902ac8b1ccd5785bb55a1918
+vendor/lib64/c2.dolby.client.so|4d55d489f69040a291bca39e1338e9a92867b7e1
+vendor/lib64/c2.dolby.hevc.dec.so|aea868e90baf968b9f5ee2d54da63124a469145f
+vendor/lib64/c2.dolby.hevc.enc.so|e85cb1c11b42909a02110d9e1675db6937a9bdbf
+vendor/lib64/c2.dolby.hevc.sec.dec.so|cf087e3af0f089fc1b8284808744007880bb90e1
+vendor/lib64/c2.dolby.store.so|804948dbf2cacd3c5faebbbf3add78e000a11049
+vendor/lib64/libDecoderProcessor.so|09ac638d724e1504ac47eb66ef3b56c8e91bf4f7
+vendor/lib64/libEncoderProcessor.so|cd23cf3ca2ec61d40c6219220a3e7e0831841ae8
+vendor/lib64/libcodec2_soft_ac4dec.so|bc4d4a81c88d58b86d79f28405998a59e863493f
+vendor/lib64/libcodec2_soft_ddpdec.so|18dde1c96a1e82b9c47c4b38e756a98d24f501ac
+vendor/lib64/libcodec2_store_dolby.so|3749d05dc119cd7c06d536cafbe7a79101386bec
+vendor/lib64/libdeccfg.so|39132d7f1422121cf808ed369beda4d1e99ac399
+vendor/lib64/libdolbyottcameracontrol.so|e2ecf83815a594a7c902718ad30894b038e3e7d0
+vendor/lib64/libeglcore.so|c5125bfba37736ee8769e7cb135e5af15a6abecb
 
 # MMI
 vendor/bin/hw/vendor.qti.hardware.factory@1.0-service
