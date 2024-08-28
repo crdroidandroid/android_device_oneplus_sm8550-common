@@ -2180,7 +2180,7 @@ vendor/bin/hw/vendor.dolby.media.c2@1.0-service|f4bcd0776be21da47cd1e0cccf838d84
 vendor/etc/init/dolbycodec2.rc|1ea8b363e94fd4f5410cadceb30de8229fb38045
 vendor/etc/init/vendor.dolby.media.c2@1.0-service.rc|bc1e134139c7dd0e5b4f98952aa51c629ea66dc7
 vendor/etc/media_codecs_dolby_audio.xml|3119c61cc5471bb7902ac8b1ccd5785bb55a1918
-vendor/lib64/c2.dolby.client.so|4d55d489f69040a291bca39e1338e9a92867b7e1
+vendor/lib64/c2.dolby.client.so|0c5ea7a056dd54eed35971f94e7337457faeb887
 vendor/lib64/c2.dolby.hevc.dec.so|aea868e90baf968b9f5ee2d54da63124a469145f
 vendor/lib64/c2.dolby.hevc.enc.so|e85cb1c11b42909a02110d9e1675db6937a9bdbf
 vendor/lib64/c2.dolby.hevc.sec.dec.so|cf087e3af0f089fc1b8284808744007880bb90e1
