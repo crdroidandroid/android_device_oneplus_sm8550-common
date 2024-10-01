@@ -93,11 +93,12 @@ function blob_fixup() {
         system_ext/lib64/libwfdmmsrc_system.so)
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --add-needed "libgui_shim.so" "${2}"
+            "${PATCHELF}" --replace-needed "android.hidl.base@1.0.so" "libhidlbase.so" "${2}"
             ;;
-        system_ext/lib64/libwfdnative.so)
+            system_ext/lib64/libwfdnative.so)
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --add-needed "libinput_shim.so" "${2}"
-            sed -i "s/android.hidl.base@1.0.so/libhidlbase.so\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/" "${2}"
+            "${PATCHELF}" --replace-needed "android.hidl.base@1.0.so" "libhidlbase.so" "${2}"
             ;;
         system_ext/lib64/libwfdservice.so)
             [ "$2" = "" ] && return 0
@@ -123,7 +124,8 @@ function blob_fixup() {
             ;;
         vendor/etc/seccomp_policy/qwesd@2.0.policy)
             [ "$2" = "" ] && return 0
-            echo "pipe2: 1" >> "${2}"
+            grep -q "gettid: 1" "${2}" || echo -e "\ngettid: 1" >> "${2}"
+            grep -q "pipe2: 1" "${2}" || echo -e "\pipe2: 1" >> "${2}"
             ;;
         system_ext/etc/camera/mtCalibrationCfg.xml)
             [ "$2" = "" ] && return 0
@@ -145,6 +147,10 @@ function blob_fixup() {
         vendor/lib64/libqcodec2_core.so)
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --add-needed "libcodec2_shim.so" "${2}"
+            ;;
+        vendor/etc/seccomp_policy/atfwd@2.0.policy|vendor/etc/seccomp_policy/wfdhdcphalservice.policy)
+            [ "$2" = "" ] && return 0
+            grep -q "gettid: 1" "${2}" || echo -e "\ngettid: 1" >> "${2}"
             ;;
         *)
             return 1
