@@ -197,39 +197,6 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
 # Camera
-my_product/etc/camera/engineer_camera_config:system_ext/etc/camera/engineer_camera_config
-my_product/etc/camera/mtCalibrationCfg.xml:system_ext/etc/camera/mtCalibrationCfg.xml
-my_product/etc/camera/mwCalibrationCfg.xml:system_ext/etc/camera/mwCalibrationCfg.xml
-my_product/lib64/libAPSClient-cmd-jni.so:system_ext/lib64/libAPSClient-cmd-jni.so
-my_product/lib64/libAPSClient-jni.so:system_ext/lib64/libAPSClient-jni.so
-my_product/lib64/libAncFilter_jni.so:system_ext/lib64/libAncFilter_jni.so
-my_product/lib64/libAncHumBokeh-jni.so:system_ext/lib64/libAncHumBokeh-jni.so
-my_product/lib64/libAncHumanDoubleExposure-jni.so:system_ext/lib64/libAncHumanDoubleExposure-jni.so
-my_product/lib64/libAncHumanRetain-jni_v2.so:system_ext/lib64/libAncHumanRetain-jni_v2.so
-my_product/lib64/libAncHumanSegFigureFusion-jni.so:system_ext/lib64/libAncHumanSegFigureFusion-jni.so
-my_product/lib64/libAncHumanVideo-jni.so:system_ext/lib64/libAncHumanVideo-jni.so
-my_product/lib64/libApsFaceBeautyPreviewProductJni.so:system_ext/lib64/libApsFaceBeautyPreviewProductJni.so
-my_product/lib64/libAvatarEngineRender.so:system_ext/lib64/libAvatarEngineRender.so
-my_product/lib64/libAvatarEngineRenderNative.so:system_ext/lib64/libAvatarEngineRenderNative.so
-my_product/lib64/libCombineLut.so:system_ext/lib64/libCombineLut.so
-my_product/lib64/libCombineLutJni.so:system_ext/lib64/libCombineLutJni.so
-my_product/lib64/libFileExtender-jni.so:system_ext/lib64/libFileExtender-jni.so
-my_product/lib64/libOplusBlurPreviewJNI.so:system_ext/lib64/libOplusBlurPreviewJNI.so
-my_product/lib64/libXDocProcessSDK-jni.so:system_ext/lib64/libXDocProcessSDK-jni.so
-my_product/lib64/libarcsoft_wideselfie.so:system_ext/lib64/libarcsoft_wideselfie.so
-my_product/lib64/libcolorx-loader.so:system_ext/lib64/libcolorx-loader.so
-my_product/lib64/libcolorx.so:system_ext/lib64/libcolorx.so
-my_product/lib64/libcoolex.so:system_ext/lib64/libcoolex.so
-my_product/lib64/libextendfile.so:system_ext/lib64/libextendfile.so
-my_product/lib64/libjni_wideselfie.so:system_ext/lib64/libjni_wideselfie.so
-my_product/lib64/libjnisingleblur_api.so:system_ext/lib64/libjnisingleblur_api.so
-my_product/lib64/libjnistblur_api.so:system_ext/lib64/libjnistblur_api.so
-my_product/lib64/libpenguin.so:system_ext/lib64/libpenguin.so
-my_product/lib64/libsingle_camera_bokeh_native.so:system_ext/lib64/libsingle_camera_bokeh_native.so
-my_product/lib64/libst_mobile.so:system_ext/lib64/libst_mobile.so
-my_product/lib64/libst_sticker_jni.so:system_ext/lib64/libst_sticker_jni.so
-my_product/product_overlay/framework/com.oplus.camera.unit.sdk.adapter.jar:system_ext/framework/com.oplus.camera.unit.sdk.adapter.jar
-my_product/product_overlay/framework/com.oplus.camera.unit.sdk.jar:system_ext/framework/com.oplus.camera.unit.sdk.jar
 odm/bin/hw/vendor.oplus.hardware.cammidasservice-V1-service
 odm/bin/occe_create
 odm/etc/camera/AiFace.json
@@ -912,9 +879,6 @@ odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc
 odm/etc/vintf/manifest/manifest_oplus_cameraextension_aidl.xml
 odm/etc/vintf/manifest/manifest_oplus_cammidasservice_aidl.xml
 odm/etc/vintf/manifest/manifest_oplus_sendextcamcmd.xml
-odm/lib64/android.hardware.graphics.allocator@2.0.so
-odm/lib64/android.hardware.graphics.allocator@3.0.so
-odm/lib64/android.hardware.graphics.allocator@4.0.so
 odm/lib64/camera/com.qti.sensor.imx581.so
 odm/lib64/camera/com.qti.sensor.imx709.so
 odm/lib64/camera/com.qti.sensor.imx800.so
@@ -1117,14 +1081,7 @@ odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk.so
 odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-service-impl.so
 system/framework/oplus-support-wrapper.jar
 system/lib64/libziparchive.so:odm/lib64/libziparchive_odm.so;FIX_SONAME
-system_ext/lib64/libAIBrightness.so
-system_ext/lib64/libHeifEncoderWrapper.so
-system_ext/lib64/libHeifWinBufExchg-jni.so
-system_ext/lib64/libNativeWinBuffExchange.so
-system_ext/lib64/liboplus_10bitHeif.so
-system_ext/lib64/liboplusHeifDecoderImpl.so
-system_ext/lib64/liboplus_heifconverter.so
-system_ext/lib64/liboplusheifwriter.so
+system_ext/lib64/libpenguin.so
 system_ext/lib64/vendor.oplus.hardware.cameraMDM@1.0.so
 vendor/bin/hw/vendor.qti.camera.provider-service_64
 vendor/etc/init/vendor.qti.camera.provider-service_64.rc
@@ -1314,12 +1271,7 @@ vendor/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk.so;MODULE_SUFFIX=_vend
 vendor/lib64/vendor.oplus.hardware.commondcs-V1-ndk_platform.so
 vendor/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk.so;MODULE_SUFFIX=_vendor
 vendor/lib64/vendor.qti.hardware.camera.aon-service-impl.so
-vendor/lib64/vendor.qti.hardware.camera.aon@1.0.so
-vendor/lib64/vendor.qti.hardware.camera.aon@1.1.so
-vendor/lib64/vendor.qti.hardware.camera.aon@1.2.so
-vendor/lib64/vendor.qti.hardware.camera.aon@1.3.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
-vendor/lib64/vendor.qti.hardware.camera.postproc@1.0.so
 
 # Camera firmware
 vendor/firmware/CAMERA_ICP.b00
@@ -2070,7 +2022,6 @@ vendor/lib64/libdapparamstorage.so|7549aeba2b7041b472ffc1f5fd39a56e4be64a2b
 vendor/lib64/libdeccfg.so|3a63582be7dea50ae10c0543f68e3bce592a3877
 vendor/lib64/libdlbdsservice.so|8d070318884f02e50ad1831bb29f8bde6af33168
 vendor/lib64/libstagefrightdolby.so|319814f3d8968e002bc1591b8e90e6eda745f79b
-vendor/lib64/libstagefright_foundation.so|a59b1b67dda446448e4da0dccbee7591ea72c502
 vendor/lib64/libstagefright_soft_ac4dec.so|d8d2dd47ca0552d4e1c5df7ad9b3becfd6d43179
 vendor/lib64/libstagefright_soft_ddpdec.so|9f921ef725bdd1edc26b484df86b10e2909f760b
 vendor/lib64/vendor.dolby.hardware.dms@2.0.so|a93b5cf33ae57387a2d32686520a0d1dd5d10dcc
