@@ -32,6 +32,7 @@ namespace_imports = [
 def lib_fixup_odm_suffix(lib: str, partition: str, *args, **kwargs):
     return f'{lib}_{partition}' if partition == 'odm' else None
 
+
 def lib_fixup_vendor_suffix(lib: str, partition: str, *args, **kwargs):
     return f'{lib}_{partition}' if partition == 'vendor' else None
 
@@ -80,7 +81,7 @@ lib_fixups: lib_fixups_user_type = {
 
 blob_fixups: blob_fixups_user_type = {
     'odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff': blob_fixup()
-        .add_needed("libshims_aidl_fingerprint_v2.oplus.so"),
+        .add_needed('libshims_aidl_fingerprint_v2.oplus.so'),
     'odm/bin/hw/vendor-oplus-hardware-performance-V1-service': blob_fixup()
         .add_needed('libbase_shim.so')
         .add_needed('libprocessgroup_shim.so'),
