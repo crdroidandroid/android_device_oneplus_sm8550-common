@@ -154,13 +154,13 @@ vendor/lib64/libsoc_helper.so
 vendor/lib64/vendor.qti.hardware.bttpi-V2-ndk.so
 
 # Bluetooth (A2DP)
-vendor/lib64/btaudio_offload_if.so
 vendor/lib64/hw/android.hardware.bluetooth.audio-impl-qti.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so
+vendor/lib64/btaudio_offload_if.so
 vendor/lib64/libbluetooth_audio_session_aidl_qti.so
 vendor/lib64/libbluetooth_audio_session_qti.so
 vendor/lib64/libbluetooth_audio_session_qti_2_1.so
@@ -171,30 +171,20 @@ vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
 # Camera
 odm/bin/hw/vendor.oplus.hardware.cammidasservice-V1-service
-odm/etc/camera/AiFace.json
-odm/etc/camera/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode
 odm/etc/camera/anc/fusion_model
 odm/etc/camera/anc/fusion_model_post
-odm/etc/camera/anc_cl_kernel.cache
-odm/etc/camera/anc_cl_kernel_ins.cache
 odm/etc/camera/ancbokehseg/anc_cl_kernel.cache
 odm/etc/camera/ancsegbase/anc_cl_kernel.cache
 odm/etc/camera/ancsegbase/ancsegmulti_2_model.data
 odm/etc/camera/ancsegbase/ancsegmulti_5_model.data
 odm/etc/camera/ancsegbase/model.data
-odm/etc/camera/arcsat_fusion.config
-odm/etc/camera/arcsoft_eis_configure
 odm/etc/camera/asd/class.dlc
 odm/etc/camera/asd/detect.dlc
 odm/etc/camera/ashdr/ncf_pack.ncf
-odm/etc/camera/capture_bokeh_params.json
-odm/etc/camera/capture_lutportrait_params.json
-odm/etc/camera/capture_neonportrait_params.json
 odm/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin
 odm/etc/camera/cfr_bin/CFR_imx581.bin
 odm/etc/camera/cfr_bin/CFR_imx709.bin
 odm/etc/camera/cfr_bin/CFR_imx890.bin
-odm/etc/camera/distortionParams.bin
 odm/etc/camera/dng/ColorMatrix1_imx581_2.txt
 odm/etc/camera/dng/ColorMatrix1_imx709_3.txt
 odm/etc/camera/dng/ColorMatrix1_imx890_0.txt
@@ -210,9 +200,6 @@ odm/etc/camera/dng/D65HUESATMap_imx890_0.txt
 odm/etc/camera/dng/ToneCurve_imx581_2.txt
 odm/etc/camera/dng/ToneCurve_imx709_3.txt
 odm/etc/camera/dng/ToneCurve_imx890_0.txt
-odm/etc/camera/eis_camera.vcfg
-odm/etc/camera/facesr_hd_composite_ref_4.1.18_qcom8550_ppl3_ocl.model
-odm/etc/camera/fb_default
 odm/etc/camera/fb_model/000.png
 odm/etc/camera/fb_model/000_pre.bin
 odm/etc/camera/fb_model/001.png
@@ -349,8 +336,6 @@ odm/etc/camera/fb_model/snapMouthMask.bin
 odm/etc/camera/fb_model/snapSkinmask.bin
 odm/etc/camera/fb_model/unify_skin_base.bin
 odm/etc/camera/fb_model/whiteToneLut.png
-odm/etc/camera/fdc_cl.cache
-odm/etc/camera/fdc_lite_cl.cache
 odm/etc/camera/filters_lut/B1VLf4peM
 odm/etc/camera/filters_lut/B1aMqioxf
 odm/etc/camera/filters_lut/B1nmcmWbG
@@ -513,8 +498,6 @@ odm/etc/camera/filters_lut/yuanqi-2.2s.cube.rgb.bin
 odm/etc/camera/filters_res/film_grain_small.bin
 odm/etc/camera/filters_res/lut_all_points.png
 odm/etc/camera/filters_res/overlay_p4_3_weak.png
-odm/etc/camera/fwk_config.json
-odm/etc/camera/gasryuv_1.2_wp.model
 odm/etc/camera/gesture/modules/tt_hand_box_reg_v12.0.model
 odm/etc/camera/gesture/modules/tt_hand_det_v11.0.model
 odm/etc/camera/gesture/modules/tt_hand_gesture_v11.1.model
@@ -525,8 +508,6 @@ odm/etc/camera/gesture/tt_hand_det_v11.0.model
 odm/etc/camera/gesture/tt_hand_gesture_v11.1.model
 odm/etc/camera/gesture/tt_hand_kp_v6.0.model
 odm/etc/camera/gesture/tt_hand_lr_v3.0.model
-odm/etc/camera/libiceainr_model.dlc
-odm/etc/camera/media_profiles.xml
 odm/etc/camera/meishe_lut/ByYo3If
 odm/etc/camera/meishe_lut/Cold.cube.rgb.bin
 odm/etc/camera/meishe_lut/DL_A_MoneyBall.bin
@@ -595,11 +576,6 @@ odm/etc/camera/meishe_lut/vivid-cool.cube.rgb.bin
 odm/etc/camera/meishe_lut/vivid-lut.cube.rgb.bin
 odm/etc/camera/meishe_lut/vivid-warm.cube.rgb.bin
 odm/etc/camera/model/DocDetectV15.xbin
-odm/etc/camera/model_fdc.data
-odm/etc/camera/mtStereoParams.bin
-odm/etc/camera/mwStereoParams.bin
-odm/etc/camera/neon_yuv_LUT_64.bin
-odm/etc/camera/oplus_eis_camera.vcfg
 odm/etc/camera/pf/PerfectColorSet/colormap/ColorLut
 odm/etc/camera/pf/PerfectColorSet/colormap/CurveLut
 odm/etc/camera/pf/PerfectColorSet/colormap/colorLut0
@@ -874,15 +850,11 @@ odm/etc/camera/pfb_bin/snapSurfaceBlurBinary.bin
 odm/etc/camera/pfb_bin/snapTex2HWBinary.bin
 odm/etc/camera/pfb_bin/snapYUV420sp2RGBBinary.bin
 odm/etc/camera/pfb_bin/snapseparateYUV2RGBBinary.bin
-odm/etc/camera/selfbokehParam.json
-odm/etc/camera/selfbokehmodel.bin
 odm/etc/camera/singleblur/personseg.bin
 odm/etc/camera/singleblur/preview_seg.json
-odm/etc/camera/spectrum_test_data_golden
-odm/etc/camera/sticker/M_SenseME_Action_5.2.12.model
 odm/etc/camera/sticker/material/animoji/data.zip
 odm/etc/camera/sticker/material/animoji/snowleopard_v_0_0_0_9.zip
-odm/etc/camera/text_enhance_yuv_v1.tflite
+odm/etc/camera/sticker/M_SenseME_Action_5.2.12.model
 odm/etc/camera/tonemap/curve_lut_0
 odm/etc/camera/tonemap/curve_lut_1
 odm/etc/camera/tonemap/curve_lut_10
@@ -907,6 +879,34 @@ odm/etc/camera/tonemap/tonemap_lut_6
 odm/etc/camera/tonemap/tonemap_lut_7
 odm/etc/camera/tonemap/tonemap_lut_8
 odm/etc/camera/tonemap/tonemap_lut_9
+odm/etc/camera/AiFace.json
+odm/etc/camera/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode
+odm/etc/camera/anc_cl_kernel.cache
+odm/etc/camera/anc_cl_kernel_ins.cache
+odm/etc/camera/arcsat_fusion.config
+odm/etc/camera/arcsoft_eis_configure
+odm/etc/camera/capture_bokeh_params.json
+odm/etc/camera/capture_lutportrait_params.json
+odm/etc/camera/capture_neonportrait_params.json
+odm/etc/camera/distortionParams.bin
+odm/etc/camera/eis_camera.vcfg
+odm/etc/camera/facesr_hd_composite_ref_4.1.18_qcom8550_ppl3_ocl.model
+odm/etc/camera/fb_default
+odm/etc/camera/fdc_cl.cache
+odm/etc/camera/fdc_lite_cl.cache
+odm/etc/camera/fwk_config.json
+odm/etc/camera/gasryuv_1.2_wp.model
+odm/etc/camera/libiceainr_model.dlc
+odm/etc/camera/media_profiles.xml
+odm/etc/camera/model_fdc.data
+odm/etc/camera/mtStereoParams.bin
+odm/etc/camera/mwStereoParams.bin
+odm/etc/camera/neon_yuv_LUT_64.bin
+odm/etc/camera/oplus_eis_camera.vcfg
+odm/etc/camera/selfbokehParam.json
+odm/etc/camera/selfbokehmodel.bin
+odm/etc/camera/spectrum_test_data_golden
+odm/etc/camera/text_enhance_yuv_v1.tflite
 odm/etc/camera/wide.bin
 odm/etc/init/init.camera_process.rc
 odm/etc/init/init.camera_upate.rc
@@ -916,6 +916,16 @@ odm/etc/vintf/manifest/manifest_oplus_camera_rfi.xml
 odm/etc/vintf/manifest/manifest_oplus_cameraextension_aidl.xml
 odm/etc/vintf/manifest/manifest_oplus_cammidasservice_aidl.xml
 odm/etc/vintf/manifest/manifest_oplus_sendextcamcmd.xml
+odm/lib64/camera/components/com.oplus.node.preview.so
+odm/lib64/camera/components/com.oplus.node.sstabdefer.so
+odm/lib64/camera/components/com.oplus.node.sstabgme.so
+odm/lib64/camera/components/com.oplus.node.sstabphoto.so
+odm/lib64/camera/components/com.oplus.node.sstabrealt.so
+odm/lib64/camera/components/com.oplus.node.videoenhance.so
+odm/lib64/camera/components/com.oplus.stats.aec.so
+odm/lib64/camera/components/com.oplus.stats.af.so
+odm/lib64/camera/components/com.oplus.stats.awb.so
+odm/lib64/camera/components/com.oplus.stats.pdlib.so
 odm/lib64/camera/com.qti.sensor.imx581.so
 odm/lib64/camera/com.qti.sensor.imx709.so
 odm/lib64/camera/com.qti.sensor.imx800.so
@@ -929,16 +939,6 @@ odm/lib64/camera/com.qti.tuned.qtech_imx581.bin
 odm/lib64/camera/com.qti.tuned.qtech_imx709.bin
 odm/lib64/camera/com.qti.tuned.qtech_imx890.bin
 odm/lib64/camera/com.qti.tuned.sunny_s5k3p9.bin
-odm/lib64/camera/components/com.oplus.node.preview.so
-odm/lib64/camera/components/com.oplus.node.sstabdefer.so
-odm/lib64/camera/components/com.oplus.node.sstabgme.so
-odm/lib64/camera/components/com.oplus.node.sstabphoto.so
-odm/lib64/camera/components/com.oplus.node.sstabrealt.so
-odm/lib64/camera/components/com.oplus.node.videoenhance.so
-odm/lib64/camera/components/com.oplus.stats.aec.so
-odm/lib64/camera/components/com.oplus.stats.af.so
-odm/lib64/camera/components/com.oplus.stats.awb.so
-odm/lib64/camera/components/com.oplus.stats.pdlib.so
 odm/lib64/camera/fdconfigpreview.bin
 odm/lib64/camera/fdconfigpreviewlite.bin
 odm/lib64/camera/fdconfigvideo.bin
@@ -1130,17 +1130,6 @@ vendor/etc/init/vendor.qti.camera.provider-service_64.rc
 vendor/etc/vintf/manifest/vendor.qti.camera.aon-impl-1.3.xml
 vendor/etc/vintf/manifest/vendor.qti.camera.postproc-impl.xml
 vendor/etc/vintf/manifest/vendor.qti.camera.provider.xml
-vendor/lib64/camera/arcsoft_calibration_uw.bin
-vendor/lib64/camera/arcsoft_calibration_wt.bin
-vendor/lib64/camera/arcsoft_dc_calibration_t.bin
-vendor/lib64/camera/arcsoft_dc_calibration_u.bin
-vendor/lib64/camera/arcsoft_dc_calibration_w.bin
-vendor/lib64/camera/com.qti.eeprom.gt24p128c2csli_imx766.so
-vendor/lib64/camera/com.qti.eeprom.gt24p64b_imx688.so
-vendor/lib64/camera/com.qti.eeprom.irs2381c_polar.so
-vendor/lib64/camera/com.qti.eeprom.truly_cmb433.so
-vendor/lib64/camera/com.qti.flash.lm3644.so
-vendor/lib64/camera/com.qti.sensor.imx766.so
 vendor/lib64/camera/components/com.arcsoft.node.eisv2.so
 vendor/lib64/camera/components/com.arcsoft.node.smooth_transition.so
 vendor/lib64/camera/components/com.bots.node.vendortagwrite.so
@@ -1207,6 +1196,20 @@ vendor/lib64/camera/components/com.qtistatic.stats.af.so
 vendor/lib64/camera/components/com.qtistatic.stats.awb.so
 vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so
 vendor/lib64/camera/components/libdepthmapwrapper_secure.so
+vendor/lib64/camera/arcsoft_calibration_uw.bin
+vendor/lib64/camera/arcsoft_calibration_wt.bin
+vendor/lib64/camera/arcsoft_dc_calibration_t.bin
+vendor/lib64/camera/arcsoft_dc_calibration_u.bin
+vendor/lib64/camera/arcsoft_dc_calibration_w.bin
+vendor/lib64/camera/com.qti.eeprom.gt24p128c2csli_imx766.so
+vendor/lib64/camera/com.qti.eeprom.gt24p64b_imx688.so
+vendor/lib64/camera/com.qti.eeprom.irs2381c_polar.so
+vendor/lib64/camera/com.qti.eeprom.truly_cmb433.so
+vendor/lib64/camera/com.qti.flash.lm3644.so
+vendor/lib64/camera/com.qti.sensor.imx766.so
+vendor/lib64/hw/camera.qcom.so
+vendor/lib64/hw/com.qti.chi.offline.so
+vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/camx.device-impl.so
 vendor/lib64/camx.provider-impl.so
 vendor/lib64/com.qti.camx.chiiqutils.so
@@ -1241,9 +1244,6 @@ vendor/lib64/com.qualcomm.mcx.nonlinearmapper.so
 vendor/lib64/com.qualcomm.mcx.policy.mfl.so
 vendor/lib64/com.qualcomm.mcx.policy.xr.so
 vendor/lib64/com.qualcomm.qti.mcx.usecase.extension.so
-vendor/lib64/hw/camera.qcom.so
-vendor/lib64/hw/com.qti.chi.offline.so
-vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/libRGBC.so
 vendor/lib64/libSonyIMX471RmscLibrary.so
 vendor/lib64/libaidenoiser.so
@@ -1361,8 +1361,6 @@ vendor/app/CACertService/CACertService.apk
 vendor/app/CneApp/CneApp.apk;REQUIRED=CneApp.libvndfwk_detect_jni.qti_vendor_symlink
 vendor/app/IWlanService/IWlanService.apk
 vendor/bin/cnd
-vendor/etc/cne/mwqem.conf
-vendor/etc/cne/profileMwqem.xml
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml
 vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml
 vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml
@@ -1392,6 +1390,8 @@ vendor/etc/cne/wqeclient/VZW/VZW_profile4.xml
 vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml
 vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml
 vendor/etc/cne/wqeclient/VZW/VZW_profile7.xml
+vendor/etc/cne/mwqem.conf
+vendor/etc/cne/profileMwqem.xml
 vendor/etc/default-permissions/com.qualcomm.qti.cne.xml
 vendor/etc/init/cnd.rc
 vendor/lib64/libcne.so
@@ -1508,8 +1508,8 @@ vendor/lib64/vendor.qti.diaghal@1.0.so;MODULE_SUFFIX=_vendor
 
 # Display (Features)
 vendor/bin/feature_enabler_client
-vendor/etc/Oplus_QC_LTM_SM8550_2022_10_13.pfm
 vendor/etc/init/feature_enabler_client.rc
+vendor/etc/Oplus_QC_LTM_SM8550_2022_10_13.pfm
 vendor/lib64/libPanelChaplin.so
 
 # Display (HDR)
@@ -1576,7 +1576,6 @@ vendor/lib64/vendor.pixelworks.hardware.feature@1.1.so;MODULE_SUFFIX=_vendor
 
 # Display (SDM)
 odm/lib64/libclstc_fodcolor_csc.so
-vendor/etc/clstc_config_library.xml
 vendor/etc/display/DPU660.xml
 vendor/etc/display/DPU670.xml
 vendor/etc/display/DPU720.xml
@@ -1587,6 +1586,7 @@ vendor/etc/display/DPU960.xml
 vendor/etc/display/DPU9__.xml
 vendor/etc/display/advanced_sf_offsets.xml
 vendor/etc/display/thermallevel_to_fps.xml
+vendor/etc/clstc_config_library.xml
 vendor/lib64/libbacklight-calib.so
 vendor/lib64/libclstc_algorithm_adapter.so
 vendor/lib64/libclstc_gcp_adapter.so
@@ -1800,31 +1800,31 @@ vendor/lib64/hw/vulkan.adreno.so
 # GNSS
 odm/etc/izat.conf
 odm/etc/sap.conf
+vendor/bin/hw/android.hardware.gnss-aidl-service-qti
 vendor/bin/edgnss-daemon
 vendor/bin/engine-service
-vendor/bin/hw/android.hardware.gnss-aidl-service-qti
 vendor/bin/loc_launcher
 vendor/bin/lowi-server
 vendor/bin/mlid
 vendor/bin/slim_daemon;DISABLE_CHECKELF
 vendor/bin/xtra-daemon
 vendor/bin/xtwifi-client
-vendor/etc/apdr.conf
-vendor/etc/batching.conf
-vendor/etc/gnss_antenna_info.conf
-vendor/etc/gps.conf
 vendor/etc/init/android.hardware.gnss-aidl-service-qti.rc
 vendor/etc/init/loc-launcher.rc
-vendor/etc/izat.conf
-vendor/etc/lowi.conf
-vendor/etc/sap.conf
-vendor/etc/sec_config
 vendor/etc/seccomp_policy/gnss@2.0-base.policy
 vendor/etc/seccomp_policy/gnss@2.0-edgnss-daemon.policy
 vendor/etc/seccomp_policy/gnss@2.0-xtra-daemon.policy
 vendor/etc/seccomp_policy/gnss@2.0-xtwifi-client.policy
 vendor/etc/vintf/manifest/android.hardware.gnss-aidl-service-qti.xml
 vendor/etc/vintf/manifest/vendor.qti.gnss-service.xml
+vendor/etc/apdr.conf
+vendor/etc/batching.conf
+vendor/etc/gnss_antenna_info.conf
+vendor/etc/gps.conf
+vendor/etc/izat.conf
+vendor/etc/lowi.conf
+vendor/etc/sap.conf
+vendor/etc/sec_config
 vendor/etc/xtwifi.conf
 vendor/lib64/hw/android.hardware.gnss-aidl-impl-qti.so
 vendor/lib64/libbatching.so
@@ -2020,19 +2020,19 @@ vendor/bin/init.qti.media.sh
 vendor/etc/init/init.qti.media.rc
 vendor/etc/init/vendor.qti.media.c2@1.0-service.rc
 vendor/etc/init/vendor.qti.media.c2audio@1.0-service.rc
-vendor/etc/media_codecs_kalama.xml
-vendor/etc/media_codecs_kalama_vendor.xml
-vendor/etc/media_codecs_performance_kalama.xml
-vendor/etc/media_codecs_performance_kalama_vendor.xml
 vendor/etc/media_kalama/video_system_specs.json
-vendor/etc/media_profiles.xml
-vendor/etc/media_profiles_V1_0.xml
-vendor/etc/media_profiles_kalama.xml
-vendor/etc/media_profiles_vendor.xml
 vendor/etc/seccomp_policy/codec2.vendor.base-arm64.policy
 vendor/etc/seccomp_policy/codec2.vendor.ext-arm64.policy
 vendor/etc/vintf/manifest/c2_manifest_vendor.xml
 vendor/etc/vintf/manifest/c2_manifest_vendor_audio.xml
+vendor/etc/media_codecs_kalama.xml
+vendor/etc/media_codecs_kalama_vendor.xml
+vendor/etc/media_codecs_performance_kalama.xml
+vendor/etc/media_codecs_performance_kalama_vendor.xml
+vendor/etc/media_profiles.xml
+vendor/etc/media_profiles_V1_0.xml
+vendor/etc/media_profiles_kalama.xml
+vendor/etc/media_profiles_vendor.xml
 vendor/lib64/libQcelp13SwCodec.so
 vendor/lib64/libmmosal_vendor.so
 vendor/lib64/libqc2audio_base.so
@@ -2141,6 +2141,9 @@ vendor/bin/poweropt-service
 vendor/etc/init/poweropt-service.rc
 vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc
 vendor/etc/init/vendor.qti.hardware.perf-hal-service.rc
+vendor/etc/lm/prekill/prekill_2GB.data
+vendor/etc/lm/prekill/prekill_4GB.data
+vendor/etc/lm/prekill/prekill_6GB.data
 vendor/etc/lm/AdaptLaunchFeature.xml
 vendor/etc/lm/AppClassifierFeature.xml
 vendor/etc/lm/LightningLaunchesFeature.xml
@@ -2151,9 +2154,6 @@ vendor/etc/lm/QAPE.xml
 vendor/etc/lm/QGPE.xml
 vendor/etc/lm/QGPEActionMap.xml
 vendor/etc/lm/SilkyScrollsFeature.xml
-vendor/etc/lm/prekill/prekill_2GB.data
-vendor/etc/lm/prekill/prekill_4GB.data
-vendor/etc/lm/prekill/prekill_6GB.data
 vendor/etc/lm/sPLHFeature.xml
 vendor/etc/perf/avcsysnodesconfigs.xml
 vendor/etc/perf/commonresourceconfigs.xml
@@ -2327,7 +2327,6 @@ vendor/bin/qtigetprop
 vendor/bin/qtisetprop
 vendor/etc/init/qcrilNrd.rc
 vendor/etc/init/qms.rc
-vendor/etc/qcril_database/qcrilNr.db
 vendor/etc/qcril_database/upgrade/config/10.0_config.sql
 vendor/etc/qcril_database/upgrade/config/11.0_config.sql
 vendor/etc/qcril_database/upgrade/config/12.0_config.sql
@@ -2350,14 +2349,15 @@ vendor/etc/qcril_database/upgrade/other/6_version_change_property_table_qcrilnr.
 vendor/etc/qcril_database/upgrade/other/7_version_update_ecc_table_qcrilnr.sql
 vendor/etc/qcril_database/upgrade/other/8_version_update_ecc_table.sql
 vendor/etc/qcril_database/upgrade/other/9_version_update_ecc_table.sql
+vendor/etc/qcril_database/qcrilNr.db
 vendor/etc/seccomp_policy/qcrilnr@2.0.policy
 vendor/etc/seccomp_policy/qms.policy
-vendor/etc/telephony_packages.xml
 vendor/etc/vintf/manifest/android.hardware.radio.config.xml
 vendor/etc/vintf/manifest/android.hardware.radio.data.xml
 vendor/etc/vintf/manifest/deviceinfo-saidl.xml
 vendor/etc/vintf/manifest/qms-saidl.xml
 vendor/etc/vintf/manifest/vendor.qti.hardware.radio.qtiradioconfig.xml
+vendor/etc/telephony_packages.xml
 vendor/lib64/deviceInfoServiceModuleNr.so
 vendor/lib64/lib-qhcpservice.so
 vendor/lib64/libQtiRilLoadable.so
@@ -2454,9 +2454,9 @@ product/framework/uimservicelibrary.jar
 # QSEECOM
 vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service
 vendor/bin/qseecomd
-vendor/etc/gpfspath_oem_config.xml
 vendor/etc/init/qseecomd.rc
 vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc
+vendor/etc/gpfspath_oem_config.xml
 vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so
 vendor/lib64/libGPreqcancel.so
 vendor/lib64/libGPreqcancel_svc.so
@@ -2652,8 +2652,8 @@ vendor/firmware/vpu33_4v_unsigned.mbn
 # Widevine DRM
 vendor/bin/hw/android.hardware.drm-service.widevine
 vendor/etc/init/android.hardware.drm-service.widevine.rc
-vendor/etc/oplus_Widevine_licenses.pfm
 vendor/etc/vintf/manifest/manifest_android.hardware.drm-service.widevine.xml
+vendor/etc/oplus_Widevine_licenses.pfm
 vendor/lib64/libwvaidl.so
 
 # WiFi
