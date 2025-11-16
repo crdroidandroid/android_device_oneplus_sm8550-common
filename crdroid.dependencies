@@ -16,6 +16,11 @@
     "target_path": "hardware/oplus"
   },
   {
+    "repository": "crdroidandroid/proprietary_vendor_oneplus_dolby",
+    "target_path": "vendor/oneplus/dolby",
+    "remote": "crdroid-gitlab"
+  },
+  {
     "repository": "TheMuppets/proprietary_vendor_oneplus_sm8550-common",
     "target_path": "vendor/oneplus/sm8550-common",
     "branch": "lineage-23.2"
