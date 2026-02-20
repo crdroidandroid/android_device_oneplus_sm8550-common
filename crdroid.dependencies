@@ -21,6 +21,11 @@
     "remote": "crdroid-gitlab"
   },
   {
+    "repository": "LineageOS/android_hardware_pixelworks_interfaces",
+    "target_path": "hardware/pixelworks/interfaces",
+    "branch": "lineage-23.2"
+  },
+  {
     "repository": "TheMuppets/proprietary_vendor_oneplus_sm8550-common",
     "target_path": "vendor/oneplus/sm8550-common",
     "branch": "lineage-23.2"
