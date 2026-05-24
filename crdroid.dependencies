@@ -16,6 +16,10 @@
     "target_path": "hardware/oplus"
   },
   {
+    "repository": "crdroidandroid/android_packages_apps_LunarisDolby",
+    "target_path": "packages/apps/LunarisDolby"
+  },
+  {
     "repository": "crdroidandroid/proprietary_vendor_oneplus_dolby",
     "target_path": "vendor/oneplus/dolby",
     "remote": "crdroid-gitlab"
