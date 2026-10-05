@@ -89,7 +89,8 @@ blob_fixups: blob_fixups_user_type = {
     ('vendor/bin/hw/android.hardware.security.keymint-service-qti', 'vendor/lib64/libqtikeymint.so'): blob_fixup()
         .add_needed('android.hardware.security.rkp-V3-ndk.so'),
     'vendor/etc/media_codecs_kalama.xml': blob_fixup()
-        .regex_replace('.*media_codecs_(google_audio|google_c2|google_telephony|google_video|vendor_audio).*\n', ''),
+        .regex_replace('.*media_codecs_(google_audio|google_c2|google_telephony|google_video).*\n', '')
+        .regex_replace('media_codecs_vendor_audio', 'media_codecs_dolby_vision'),
     'vendor/etc/seccomp_policy/qwesd@2.0.policy': blob_fixup()
         .add_line_if_missing('pipe2: 1'),
     'vendor/lib64/libqcodec2_core.so': blob_fixup()
