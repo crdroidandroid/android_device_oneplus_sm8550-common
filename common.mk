@@ -123,6 +123,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.touchscreen.multitouch.jazzhand.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml
 
+# Dolby Vision
+PRODUCT_PACKAGES += \
+    dolbycodec2
+
 # Doze
 PRODUCT_PACKAGES += \
     OplusDoze \
