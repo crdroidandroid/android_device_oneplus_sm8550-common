@@ -141,6 +141,8 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace('media_codecs_vendor_audio', 'media_codecs_dolby_vision'),
     'vendor/etc/seccomp_policy/qwesd@2.0.policy': blob_fixup()
         .add_line_if_missing('pipe2: 1'),
+    'vendor/lib64/libcamera2ndk_vendor.so': blob_fixup()
+        .replace_needed('libstagefright_foundation.so', 'libstagefright_foundation-v33.so'),
     'vendor/lib64/vendor.libdpmframework.so': blob_fixup()
         .add_needed('libhidlbase_shim.so'),
 }  # fmt: skip
